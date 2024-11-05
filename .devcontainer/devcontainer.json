@@ -1,5 +1,5 @@
 {
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "image": "mcr.microsoft.com/devcontainers/java:17-bookworm",
     "postCreateCommand": "cd /opt && wget 'https://github.com/wpilibsuite/vscode-wpilib/releases/download/v2024.3.1/vscode-wpilib-2024.3.1.vsix'",
     "features": {
       "ghcr.io/devcontainers/features/desktop-lite:1": {}
